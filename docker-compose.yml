@@ -19,7 +19,7 @@ services:
     volumes:
       - ./src:/app/src
     ports:
-      - "8080:8080"
+      - "8080:80"
     depends_on:
       - node_db
     environment:
