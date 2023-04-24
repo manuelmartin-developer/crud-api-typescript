@@ -28,6 +28,6 @@ services:
       - PG_PASSWORD=12345
       - PG_HOST=node_db
     env_file:
-      - .env/.env
+      - .env
 volumes:
   node_db_data: {}
